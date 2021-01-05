@@ -1,0 +1,7 @@
+{
+  "name": "FacebookLogin",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
