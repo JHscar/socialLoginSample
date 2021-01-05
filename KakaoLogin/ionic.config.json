@@ -1,0 +1,7 @@
+{
+  "name": "KakaoLogin",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
