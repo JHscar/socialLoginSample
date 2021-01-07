@@ -1,0 +1,7 @@
+{
+  "name": "LineLogin",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
