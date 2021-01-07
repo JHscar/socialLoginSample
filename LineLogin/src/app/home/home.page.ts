@@ -13,11 +13,13 @@ export class HomePage {
   ) { }
 
   linelogin() {
-    this.lineLogin.initialize({ channel_id: "1655547135" })
+    this.lineLogin.initialize({ channel_id: "발급받은 id" })
 
-    this.lineLogin.login()
-      .then(result => console.log(result))
-      .catch(error => console.log(error))
+    this.lineLogin.login().then(result => {
+      console.log(result);
+    }).catch(error => {
+      console.log(error)
+    })
   }
 
 }
