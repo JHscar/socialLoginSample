@@ -1,0 +1,7 @@
+{
+  "name": "NaverLogin",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
