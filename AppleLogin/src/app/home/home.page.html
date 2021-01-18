@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Apple Sign In
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-card *ngIf="!user; else welcome">
+    <ion-card-content>
+      <ion-button expand="full" (click)="openAppleSignIn()" *ngIf="showAppleSignIn">
+        <ion-icon name="logo-apple" slot="start"></ion-icon>
+        Sign in with Apple
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <ng-template #welcome>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Welcome back!</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        {{ user | json }}
+      </ion-card-content>
+    </ion-card>
+  </ng-template>
+
+</ion-content>

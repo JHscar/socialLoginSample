@@ -1,0 +1,7 @@
+{
+  "name": "AppleLogin",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
